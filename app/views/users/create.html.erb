@@ -1,0 +1,8 @@
+
+<div class="jumbotron col-offset-4">
+  <h1 class="display-3">Bonjour <%=@user.username%></h1>
+  <p>Tu as aura l'ID n°<%= @user.id%> </p>
+  <p>Date de création : <%= @user.created_at%> </p>
+
+</div>
+ <p><%= link_to 'retour', '/users' %></p>
